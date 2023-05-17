@@ -21,6 +21,11 @@ export default function Home(){
          window.removeEventListener('resize', handleSize);
         }
      }, [])
+
+
+     const handleButtonClicked = () => {
+        window.open(`${process.env.PUBLIC_URL}/resume.pdf`, '_blank')
+     }
  
     return(
         <main>
@@ -40,7 +45,7 @@ export default function Home(){
     </div>
 
     <div className="cv--div">
-       <button className="cv--button">View CV</button>
+       <button className="cv--button" onClick={handleButtonClicked}>View CV</button>
        <NavLink to="about" className="nav--link-home">About</NavLink>
        <NavLink to="resume" className="nav--link-home">Portfolio</NavLink>
     </div>
@@ -61,7 +66,7 @@ export default function Home(){
                  <p className="home--text-small">I am also a <a rel="noreferrer" href="https://medium.com/@ojoabisola387" className="technical--link">technical writer.</a></p>
 
                 <div className="cv--div">
-                   <button className="cv--button">View CV</button>
+                   <button className="cv--button" onClick={handleButtonClicked}>View CV</button>
                     
                 </div>
 

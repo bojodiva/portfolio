@@ -8,6 +8,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import picture6 from "../images/first-technical.png";
 import picture7 from "../images/second-technical.png";
+import picture8 from "../images/care-finder-app-photo.png"
 
 
 export default function Resume(){
@@ -21,6 +22,20 @@ export default function Resume(){
 <div>
   <h1 className="intro--note">Here are the projects I have worked on so far. </h1>
  
+  <div data-aos="zoom-in">
+<section className="project">
+<div className="footer--head-container">
+  <div className="footer--heading">
+  <h2 className="appp">CareFinder App</h2>
+  <p className="p-note">This project was built using ReactJs and Firebase for user authentication. It allows users to search for hospitals near them. <br></br>It also allows them leave a review about each hospitals so other users can see.. </p>
+  </div>
+  <div className="footer--demo">
+    <h1> <a rel="noreferrer" href="https://authentication-57736.web.app/" target="_blank" className="linker">View Demo &#x2197;</a></h1>
+  </div>
+  </div>
+  <a rel="noreferrer" href="https://authentication-57736.web.app/" target="_blank"><img src={picture8} className="photos" alt="pagination"></img></a>
+</section>
+</div>
       
 <div data-aos="zoom-in">
 <section className="project">
@@ -59,7 +74,7 @@ export default function Resume(){
 <div className="footer--head-container">
   <div className="footer--heading">
   <h2 className="appp">Pagination Project</h2>
-  <p className="p-note">This project was made using ReactJs and a REST API. It displays information about random users gotten from an API. <br></br>It also implements Pagination for easier navigation. </p>
+  <p className="p-note">This project was built using ReactJs and a REST API. It displays information about random users gotten from an API. <br></br>It also implements Pagination for easier navigation. </p>
   </div>
   <div className="footer--demo">
     <h1> <a rel="noreferrer" href="https://timely-dodol-4d788e.netlify.app/" target="_blank" className="linker">View Demo &#x2197;</a></h1>
@@ -74,7 +89,7 @@ export default function Resume(){
   <div className="footer--head-container">
   <div className="footer--heading">
 <h2 className="appp">GitHub Repo Pagination</h2>
-    <p className="p-note">This project was made using ReactJs and GitHub REST API. It displays all my repositories from GitHub. <br></br>It also implements Pagination for easier navigation, 404 page and error handling.</p>
+    <p className="p-note">This project was built using ReactJs and GitHub REST API. It displays all my repositories from GitHub. <br></br>It also implements Pagination for easier navigation, 404 page and error handling.</p>
     </div>
   <div className="footer--demo">
     <h1> <a rel="noreferrer"href="https://endearing-cupcake-266e60.netlify.app/" target="_blank" className="linker"> View Demo &#x2197;</a></h1>
@@ -98,6 +113,9 @@ export default function Resume(){
 <a rel="noreferrer" href="https://illustrious-dieffenbachia-400fb7.netlify.app/" target="_blank"><img src={picture4} className="photos" alt="alphabet"></img></a>
 </section>
 </div>
+
+
+
 
 <div>
   <h1 className="intro--note">Here are my technical write-ups</h1>

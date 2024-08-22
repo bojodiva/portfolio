@@ -24,7 +24,7 @@ export default function Home(){
 
 
      const handleButtonClicked = () => {
-        window.open(`${process.env.PUBLIC_URL}/resume.pdf`, '_blank')
+        window.open(`${process.env.PUBLIC_URL}/abisola-CV.pdf`, '_blank')
      }
  
     return(
